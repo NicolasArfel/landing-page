@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasArfel/landing-page.git"
+  },
+  "author": "nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasArfel/landing-page/issues"
+  },
+  "homepage": "https://github.com/NicolasArfel/landing-page#readme"
+}
