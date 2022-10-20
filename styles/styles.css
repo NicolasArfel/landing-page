@@ -17,58 +17,10 @@ body {
   position: relative;
 }
 
-.nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  background-color: var(--dark-moderate-cyan);
-  justify-content: space-between;
-  align-items: center;
-}
-.icon {
-  display: none;
-}
-.nav__links {
-  display: flex;
-  justify-content: end;
-}
-.nav a {
+.attribution {
+  font-size: 11px;
   text-align: center;
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
 }
-.nav__logo {
-  margin: 2rem;
-}
-
-@media screen and (max-width: 700px) {
-  .nav {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .nav__links {
-    width: 100%;
-    background-color: var(--dark-moderate-cyan);
-    text-align: center;
-    flex-direction: column;
-    transform: translateY(-500px);
-    z-index: 1;
-  }
-  .nav__link {
-    margin: 2rem;
-  }
-
-  .isActive {
-    transform: translateY(0px);
-    transition: 400ms ease-in-out;
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
