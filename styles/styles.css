@@ -17,6 +17,14 @@ body {
   position: relative;
 }
 
+h1,
+h2,
+h3,
+#contact {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: bold;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
