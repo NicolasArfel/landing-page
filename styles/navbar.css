@@ -52,13 +52,14 @@
   .nav {
     flex-direction: column;
     justify-content: flex-start;
+    position: relative;
   }
 
   .icon {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -100px;
   }
 
   .nav__links {

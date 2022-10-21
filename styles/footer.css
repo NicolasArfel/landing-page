@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #9adace;
+  padding: 2rem 0;
+}
+
+.footer {
+  margin: 1rem;
+}
+
+footer a {
+  color: var(--dark-moderate-cyan);
+}
