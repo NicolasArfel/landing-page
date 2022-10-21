@@ -49,3 +49,24 @@
   height: 70px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 700px) {
+  .testimonials {
+    height: 100%;
+  }
+  .testimonials__articles {
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonial {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .testimonials h2 {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: normal;
+    margin: 4rem 1rem;
+  }
+}

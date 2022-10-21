@@ -18,3 +18,22 @@ header {
   margin-top: 30vh;
   margin-bottom: 10vh;
 }
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  header {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
