@@ -25,6 +25,11 @@ h3,
   font-weight: bold;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

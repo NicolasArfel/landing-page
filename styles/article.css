@@ -1,7 +1,7 @@
 article {
   display: flex;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 article p,
@@ -15,12 +15,18 @@ a {
 .article__text {
   width: 50%;
 }
+.full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .article__image {
   object-fit: cover;
 }
 
 .article__text {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,6 +36,23 @@ a {
 .article__description {
   margin: 2rem 0;
   font-weight: 600;
+  color: var(--very-dark-grayish-blue);
+  line-height: 2rem;
+}
+
+.article__absolute {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10%;
+  width: 90%;
+}
+
+.article__absolute h2 {
+  font-size: 2rem;
+  font-weight: 900;
   color: var(--very-dark-grayish-blue);
 }
 
@@ -68,9 +91,4 @@ a {
 .article__link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 900;
 }
