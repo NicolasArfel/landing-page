@@ -48,7 +48,7 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .nav {
     flex-direction: column;
     position: relative;

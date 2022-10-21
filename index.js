@@ -1,7 +1,7 @@
+let isActive = false;
+const burgerIcon = document.querySelector('.material-symbols-outlined');
+const navLinks = document.querySelector('.nav__links');
 function activeBurgerMenu() {
-  let isActive = false;
-  const burgerIcon = document.querySelector('.material-symbols-outlined');
-  const navLinks = document.querySelector('.nav__links');
   burgerIcon.addEventListener('click', () => {
     navLinks.classList.toggle('isActive');
     isActive = !isActive;
@@ -13,4 +13,18 @@ function activeBurgerMenu() {
   });
 }
 
+function closeBurgerOnClick() {
+  const navLink = document.querySelectorAll('.nav__link');
+  navLink.forEach((link) => {
+    link.addEventListener('click', () => {
+      if (isActive) {
+        isActive = !isActive;
+        navLinks.classList.remove('isActive');
+        burgerIcon.textContent = 'menu';
+      }
+    });
+  });
+}
+
 activeBurgerMenu();
+closeBurgerOnClick();
